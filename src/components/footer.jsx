@@ -17,8 +17,7 @@ export function Footer() {
         <div className={logos}>
           <Logo />
         </div>
-        <strong>gatsby-starter-shopify</strong> change this by editing{" "}
-        <code>src/components/footer.jsx</code>
+        <strong>rheine</strong> is een clean beauty & lifestyle merk. zorgvuldig uitgekozen & duurzame producten
       </div>
       <nav className={links} aria-label="footer">
         <ul className={footerNavList}>
