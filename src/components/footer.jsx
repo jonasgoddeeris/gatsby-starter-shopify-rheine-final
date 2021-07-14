@@ -27,20 +27,8 @@ export function Footer() {
             </a>
           </li>
           <li className={footerNavListItem}>
-            <a href="https://www.gatsbyjs.com/cloud/">About Gatsby Cloud</a>
+            <a href="https://www.rheine.be">About rheine</a>
           </li>
-          {process.env.GATSBY_DEMO_STORE === "true" && (
-            <li className={footerNavListItem}>
-              <a href="https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-shopify&utm_campaign=shopify-starter">
-                <img
-                  src="https://www.gatsbyjs.com/deploynow.png"
-                  alt="Deploy to Gatsby Cloud"
-                  height="38"
-                  width="251"
-                />
-              </a>
-            </li>
-          )}
         </ul>
       </nav>
       <div className={copyright}>
